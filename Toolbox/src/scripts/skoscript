@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#RAW REPORT = PARAM1
+#AGGREGATED REPOT = PARAM 2
+aggregated_report=${2}
+raw_report=${1}
+
+raw_report_out="/sitestat/dropzone/incoming/sko/test/tmp-tests/raw_results.tsv"
+aggregated_report_out="/sitestat/dropzone/incoming/sko/test/tmp-tests/aggregated_results.tsv"
+
+
+
+#write into the raw data file,REMEMBER TO CHANGE THE INDEXES IN CUT, PUT (title,platform = 1-12?) THE AWK OUTPUT IS (title,platform,count)
+tail -n +2 ${raw_report} | cut -f1,2,3,4,5,6,9,12 | sort -k1,1 -k12,12 | sed 's/Big screen/bigscreen/;s/        / /g' | uniq -c | awk -F" " '{print $2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$1}' | sed 's/bigscreen/Big screen/' > ${raw_report_out}
+
+#cat ${aggregated_report} | cut -f1,5,3,4,6,2,7,24 | sort -k1,1 -k24,24 | awk -F"\t" '{print $1"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9}' > ${aggregated_report_out}
+tail -n +2 ${aggregated_report} | cut -f1,5,3,4,6,2,7,10,24 | sort -k1,1 -k24,24 | awk -F"\t" '{print $1"\t"$5"\t"$3"\t"$4"\t"$6"\t"$2"\t"$7"\t"$9"\t"$8}' | sort -k1,1 -k24,24 > ${aggregated_report_out}
+
+echo "DONE"
