@@ -1,4 +1,4 @@
-package sockets;
+package sockets.simple_example_nomultithread;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
