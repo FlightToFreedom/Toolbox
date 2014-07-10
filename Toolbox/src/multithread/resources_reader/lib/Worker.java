@@ -47,7 +47,9 @@ public class Worker implements Runnable {
 				String line;
 				while ((line = reader.readLine()) != null) {
 					String[] parts = line
-							.split(StaticValues.COMMA);
+							.split(StaticValues.TAB);
+					System.out
+							.println(parts.length);
 
 				}
 			} catch (IOException e) {
