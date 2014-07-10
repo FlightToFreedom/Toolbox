@@ -12,6 +12,8 @@ package multithread.resources_reader.lib;
 public class Main {
 
 	public static void main(String... args) {
-
+		// starts the job
+		WorkerPool pool = new WorkerPool();
+		pool.work();
 	}
 }
