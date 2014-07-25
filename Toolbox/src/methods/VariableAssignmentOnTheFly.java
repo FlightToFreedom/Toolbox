@@ -14,4 +14,11 @@ public class VariableAssignmentOnTheFly {
 	private static Double getNumber() {
 		return 2.0;
 	}
+	
+	/**
+	 *DO NOTHING! I'M TESTING A COMMIT FROM A NEW WORKSTATION
+	 */
+	private void addTest(){
+		
+	}
 }
