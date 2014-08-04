@@ -1,7 +1,11 @@
 package sockets.simple_multithreaded_example;
 
-public class Server {
-
-	// work in progress.....
+/**
+ * A simple demo of a simple server socket that supports multi threading.
+ * 
+ * @author eiorio
+ * 
+ */
+public class Server extends Thread {
 
 }
