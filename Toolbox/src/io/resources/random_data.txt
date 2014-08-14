@@ -1,0 +1,57 @@
+944,Thomas,Walker,twalker@yotz.net,Sao Tome and Principe,227.5.229.190
+945,Jerry,Graham,jgraham@dabvine.gov,Fiji,242.0.117.147
+946,Ruth,Evans,revans@fivebridge.edu,Aruba,223.32.95.152
+947,Brandon,Ford,bford@meejo.com,India,153.204.245.36
+948,Tina,Sanders,tsanders@feedmix.info,Vatican City State (Holy See),87.76.172.239
+949,Denise,Evans,devans@divavu.net,Niue,225.233.149.94
+950,Heather,Hanson,hhanson@skinte.net,Samoa,48.69.150.226
+951,Pamela,Sullivan,psullivan@photospace.biz,Afghanistan,111.146.89.137
+952,Justin,Pierce,jpierce@blogtag.gov,Germany,185.122.96.79
+953,Thomas,Woods,twoods@minyx.net,Cook Islands,90.136.198.28
+954,Karen,Pierce,kpierce@aibox.org,Cambodia,117.134.234.10
+955,Walter,Hanson,whanson@blogspan.net,Oman,59.202.226.252
+956,Randy,Harper,rharper@jumpxs.com,Bolivia,231.13.219.24
+957,Jennifer,Stewart,jstewart@kare.com,Turks and Caicos Islands,80.150.73.205
+958,Stephen,Harris,sharris@mudo.name,Cambodia,76.75.169.180
+959,Mildred,Jordan,mjordan@tagcat.biz,Chile,31.124.121.60
+960,Jesse,Wheeler,jwheeler@linkbuzz.mil,Canada,37.200.9.11
+961,Peter,Reid,preid@voomm.com,New Caledonia,207.137.35.65
+962,Jerry,Gonzalez,jgonzalez@roomm.mil,Israel,79.155.60.124
+963,Keith,Ward,kward@twitterbeat.com,Panama,149.216.203.113
+964,Christina,Baker,cbaker@fadeo.mil,Vanuatu,209.126.111.211
+965,Shawn,Jenkins,sjenkins@teklist.com,United Kingdom,137.100.56.91
+966,Timothy,Robertson,trobertson@rhyzio.net,USSR,183.221.209.243
+967,Sandra,Hansen,shansen@feedfish.net,Saint Pierre and Miquelon,160.199.97.151
+968,Roger,Hughes,rhughes@thoughtmix.org,Saint Barthelemy,177.231.31.35
+969,Christopher,Foster,cfoster@latz.edu,Ecuador,94.24.146.254
+970,Melissa,Perry,mperry@skaboo.net,Nepal,23.120.88.177
+971,Helen,Scott,hscott@meedoo.biz,Sri Lanka,86.49.42.218
+972,Ruth,Turner,rturner@centizu.name,Georgia,148.21.196.250
+973,Terry,Reid,treid@skyndu.com,Libya,59.203.232.207
+974,Larry,Burke,lburke@quinu.net,Poland,31.193.20.249
+975,Sarah,Lawson,slawson@skimia.biz,Chad,196.90.12.189
+976,Wanda,Mills,wmills@twimbo.name,China,175.208.83.181
+977,Debra,Gardner,dgardner@buzzshare.com,United States of America,71.77.175.219
+978,Michelle,Simmons,msimmons@oyondu.biz,Burundi,212.188.53.108
+979,Gregory,Turner,gturner@flashpoint.name,Venezuela,164.169.153.94
+980,Jean,Tucker,jtucker@quire.edu,Liechtenstein,189.115.247.42
+981,Paula,Andrews,pandrews@plajo.name,Tuvalu,191.217.127.110
+982,Wayne,Jacobs,wjacobs@mynte.info,Afghanistan,230.125.158.192
+983,Brian,Fowler,bfowler@quimm.com,"Palestinian Territory, Occupied",83.247.176.92
+984,John,Myers,jmyers@yakidoo.info,French Southern Territories,190.184.4.96
+985,Shawn,Murray,smurray@babblestorm.name,Thailand,3.236.160.237
+986,Shirley,Simpson,ssimpson@npath.biz,Croatia,218.182.38.76
+987,Andrea,Day,aday@skivee.org,Netherlands,166.204.196.20
+988,Jonathan,Porter,jporter@tagpad.mil,Botswana,97.165.149.45
+989,Alan,Rodriguez,arodriguez@blogxs.edu,Turkmenistan,247.0.254.254
+990,Samuel,Lynch,slynch@twitterworks.com,Marshall Islands,13.192.232.103
+991,Benjamin,Jackson,bjackson@voolia.net,Canada,107.133.121.2
+992,Heather,Henderson,hhenderson@quamba.gov,Nicaragua,254.58.219.74
+993,Lois,Black,lblack@browsecat.name,Serbia,105.66.111.47
+994,Donna,Dunn,ddunn@skippad.net,Bermuda,132.140.195.104
+995,Ashley,Ramos,aramos@jumpxs.biz,Montserrat,83.23.172.31
+996,Diana,Morgan,dmorgan@layo.info,Japan,212.203.200.215
+997,Lillian,Knight,lknight@oloo.biz,Laos,198.135.106.1
+998,Betty,Larson,blarson@topicshots.com,Switzerland,220.9.87.80
+999,Elizabeth,Stephens,estephens@divavu.biz,Liberia,19.5.218.21
+1000,Chris,Black,cblack@rhynoodle.biz,Turks and Caicos Islands,224.12.252.4
