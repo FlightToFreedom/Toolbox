@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
 /**
  * Simple class that explains the usage of the PrintWriter class
  * @author eiorio
@@ -27,4 +28,5 @@ public class UsePrintWriter {
 		}
 
 	}
+
 }
