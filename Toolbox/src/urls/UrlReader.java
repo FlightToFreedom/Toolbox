@@ -9,7 +9,7 @@ import java.util.List;
 
 public class UrlReader {
 
-	public static final String	API_ADDRESS	= "http://metadata.h08.comscore.mgmt:8080/metadata/rest/metadata/v1/uk-dax-demo/tables/DAX_LABELS/records";
+	public static final String	API_ADDRESS	= "http://www.repubblica.it/";
 
 	public static void main(String... args) {
 
@@ -31,6 +31,9 @@ public class UrlReader {
 				lines.add(input);
 
 			reader.close();
+			for(String line:lines){
+				System.out.println(line);
+			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
