@@ -15,6 +15,7 @@ public class LastMonday {
 			diff = (day - 1);
 		}
 		now = now.minusDays(diff);
+		System.out.println(convertDateMidnightToString(now));
 	}
 
 	/**
