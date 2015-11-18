@@ -15,8 +15,7 @@ import org.xml.sax.SAXException;
 public class Reader {
 
 	public static void main(String[] args) {
-		File fXmlFile = new File(
-				"D:\\Users\\eiorio\\workspace\\MyStuff\\src\\xml\\file.xml");
+		File fXmlFile = new File(args[0]);
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder;
 		String chosenLevel = "2";// lets suppose they have chosen level one
@@ -47,8 +46,8 @@ public class Reader {
 										chosenLevel)) {
 									String virtualSite = siteElement
 											.getAttribute("name");// the value
-																	// to
-																	// return!!
+									// to
+									// return!!
 									System.out.println("SITE " + virtualSite);
 									NodeList nameValuePairs = siteElement
 											.getElementsByTagName("namevaluepair");
