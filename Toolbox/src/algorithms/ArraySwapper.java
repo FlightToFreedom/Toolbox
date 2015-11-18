@@ -1,6 +1,6 @@
 package algorithms;
 
-public final class ArraySwapper<T> {
+public final class ArraySwapper{
 
 
 
