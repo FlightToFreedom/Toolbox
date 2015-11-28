@@ -8,4 +8,8 @@ public class Animal {
 	protected void testInstanceMethod() {
 		System.out.println("The instance " + " method in Animal.");
 	}
+
+	public void makeSound(){
+		System.out.println("Extend me!");
+	}
 }
