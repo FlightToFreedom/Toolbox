@@ -4,7 +4,7 @@
  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
  
  <hibernate-mapping>
-   <class name="User" table="users">
+   <class name="hibernate.User" table="users">
       <meta attribute="class-description">
          This file maps the User.class to the 'users' table in the 'users' database
       </meta>
