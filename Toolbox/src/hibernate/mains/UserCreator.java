@@ -14,7 +14,7 @@ public class UserCreator {
 
 	public Integer createUser(String userName, String password){
 		try{
-			factory = new Configuration().configure().buildSessionFactory();
+			factory = new Configuration().addAnnotatedClass(User.class).configure().buildSessionFactory();
 		}catch (Throwable ex) { 
 			System.err.println("Failed to create sessionFactory object." + ex);
 			throw new ExceptionInInitializerError(ex); 
@@ -26,7 +26,7 @@ public class UserCreator {
 		Integer userId = null;
 		try{
 			tx = session.beginTransaction();
-			User user = new User(userName, password);
+			User user = new User(userName, password,1);
 			userId = (Integer) session.save(user); 
 			tx.commit();
 		}catch (HibernateException e) {
