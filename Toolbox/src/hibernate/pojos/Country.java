@@ -17,6 +17,9 @@ public class Country {
 	@Column(name="country_name")
 	private String countryName;
 
+	public Country(){
+
+	}
 
 	public Country(String countryName){
 		this.countryName=countryName;
