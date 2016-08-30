@@ -12,7 +12,7 @@ public class UserCreator {
 
 	private static SessionFactory factory;
 
-	public Integer createUser(String userName, String password){
+	public Integer createUser(String userName, String password,Integer countryId){
 		try{
 			factory = new Configuration().addAnnotatedClass(User.class).configure().buildSessionFactory();
 		}catch (Throwable ex) { 
@@ -26,7 +26,7 @@ public class UserCreator {
 		Integer userId = null;
 		try{
 			tx = session.beginTransaction();
-			User user = new User(userName, password,1);
+			User user = new User(userName, password,countryId);
 			userId = (Integer) session.save(user); 
 			tx.commit();
 		}catch (HibernateException e) {
