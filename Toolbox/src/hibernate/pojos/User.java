@@ -21,7 +21,6 @@ public class User {
 	@Column(name="country_id")
 	private int countryId;
 
-
 	public User(String userName, String password,int countryId){
 		this.userName=userName;
 		this.password=password;
