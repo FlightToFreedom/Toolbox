@@ -1,5 +1,9 @@
 package hibernate.mains;
 
+import java.util.List;
+
+import hibernate.pojos.Country;
+
 public class DBManager {
 
 
@@ -9,9 +13,15 @@ public class DBManager {
 		//Do an user
 		//Integer result = userCreator.createUser("antonio", "sisma",country_id);
 
-		CountryCreator countryCreator = new CountryCreator();
-		countryCreator.createCountries();
-		System.out.println("Success, check db ");
-	}
+		//XXX Creates countries
+		//CountryCreator countryCreator = new CountryCreator();
+		//countryCreator.createCountries();
+		//System.out.println("Success, check db ");
 
+		//Select all the countries
+		List<Country> countries = CountryCreator.selectCountries();
+		for(Country country: countries){
+			System.out.println(country.getCountryName());
+		}
+	}
 }
