@@ -74,4 +74,30 @@ public class CountryCreator {
 		}
 		return countries;
 	}
+
+	/**
+	 * Selects all the countries
+	 * @return
+	 */
+	public static List<Country> selectCountries(){
+		List<Country> countries = new ArrayList<>();
+		try{
+			factory = new Configuration().addAnnotatedClass(Country.class).configure().buildSessionFactory();
+		}catch (Throwable ex) { 
+			System.err.println("Failed to create sessionFactory object." + ex);
+			throw new ExceptionInInitializerError(ex); 
+		}
+
+		Session session = factory.openSession();
+		Transaction tx = null;
+		try{
+			tx = session.beginTransaction();
+			countries = session.createQuery("FROM Country").list();
+			tx.commit();
+		}catch(HibernateException e){
+			if(tx!=null){tx.rollback();}
+			e.printStackTrace();
+		}
+		return countries;
+	}
 }
